@@ -1,38 +1,38 @@
-Litecore
+Globaltokencore
 =======
 
 [![Build Status](https://travis-ci.org/bitpay/bitcore.svg?branch=master)](https://travis-ci.org/bitpay/bitcore)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore.svg)](https://coveralls.io/r/bitpay/bitcore)
 
-A pure, powerful core for your Litecoin project.
+A pure, powerful core for your Globaltoken project.
 
-Litecore is a complete, native interface to the Litecoin network, and provides the core functionality needed to develop
-apps for Litecoin.
+Globaltokencore is a complete, native interface to the Globaltoken network, and provides the core functionality needed to develop
+apps for Globaltoken.
 
 #Principles
 
-Litecoin is a powerful new peer-to-peer platform for the next generation of financial and social technology.
-The decentralized nature of the Litecoin network allows for highly resilient Litecoin infrastructure, and the developer
-community needs reliable, open-source tools to implement Litecoin apps and services.
+Globaltoken is a powerful new peer-to-peer platform for the next generation of financial and social technology.
+The decentralized nature of the Globaltoken network allows for highly resilient Globaltoken infrastructure, and the developer
+community needs reliable, open-source tools to implement Globaltoken apps and services.
 
-**Litecore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Litecoin network.**
+**Globaltokencore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Globaltoken network.**
 
 #Get Started
 
-Litecore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+Globaltokencore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```
-npm install Litecore
+npm install Globaltokencore
 ```
 
-It is a collection of objects useful to Litecoin applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
+It is a collection of objects useful to Globaltoken applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
 In most cases, a developer will require the object's class directly. For instance:
 
 ```javascript
-var Litecore = require('Litecore');
-var Address = Litecore.Address;
-var Transaction = Litecore.Transaction;
-var PeerManager = Litecore.PeerManager;
+var Globaltokencore = require('Globaltokencore');
+var Address = Globaltokencore.Address;
+var Transaction = Globaltokencore.Transaction;
+var PeerManager = Globaltokencore.PeerManager;
 ```
 
 #Examples
@@ -52,24 +52,24 @@ Javascript files available at [/examples](/examples) folder.
 
 Please use at your own risk.
 
-Litecore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
+Globaltokencore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
 please email pembo210@gmail
 
 #Contributing
 
-Litecore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
+Globaltokencore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
 
 #Browser support
 
 ## Building the browser bundle
 
-To build Litecore full bundle for the browser (this is automatically executed after you run `npm install`):
+To build Globaltokencore full bundle for the browser (this is automatically executed after you run `npm install`):
 
 ```
 node browser/build.js -a
 ```
 
-This will generate a `browser/bundle.js` file which you can include in your HTML to use Litecore in the browser.
+This will generate a `browser/bundle.js` file which you can include in your HTML to use Globaltokencore in the browser.
 
 ##Example browser usage
 
@@ -81,8 +81,8 @@ From example/simple.html
   <body>
     <script src="../browser/bundle.js"></script>
     <script>
-      var Litecore = require('Litecore');
-      var Address = Litecore.Address;
+      var Globaltokencore = require('Globaltokencore');
+      var Address = Globaltokencore.Address;
       var a = new Address('sgrHPw4aEPos8YJDNfefsUSjPYWc5fzpLE');
       console.log('sgrHPw4aEPos8YJDNfefsUSjPYWc5fzpLE is valid? '+a.isValid());
     </script>
@@ -94,26 +94,26 @@ You can check a more complex usage example at examples/example.html.
 
 ## Generating a customized browser bundle
 
-To build the main Litecore bundle, run:
+To build the main Globaltokencore bundle, run:
 
 ```
 node browser/build.js -m
 ```
 
-To build all features into the Litecore bundle (which will lead to a large file size), run:
+To build all features into the Globaltokencore bundle (which will lead to a large file size), run:
 
 ```
 node browser/build.js -a
 ```
 
-To generate a customized Litecore bundle, you can specify which submodules you want to include in it with the -s option:
+To generate a customized Globaltokencore bundle, you can specify which submodules you want to include in it with the -s option:
 
 ```
 node browser/build.js -s Transaction,Address
 ```
 
 This will generate a `browser/bundle.js` containing only the Transaction and Address class, with all their dependencies.
-Use this option if you are not using the whole Litecore library, to optimize the bundle size, script loading time, and general resource usage.
+Use this option if you are not using the whole Globaltokencore library, to optimize the bundle size, script loading time, and general resource usage.
 
 ## Tests
 

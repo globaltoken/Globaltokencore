@@ -1,10 +1,10 @@
 {
-  "name": "Litecore",
-  "description": "Litecoin Library",
+  "name": "Globaltokencore",
+  "description": "Globaltoken Library",
   "version": "0.1.39",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "globaltokendevteam",
+    "email": "admin@globaltoken.org"
   },
   "contributors": [
     {
@@ -12,14 +12,19 @@
       "email": "dev@goflap.io"
     },
     {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
-  }
+      "name": "pembo210",
+      "email": "pembo210@gmail.com"
+    },
+	{
+      "name": "globaltokendevteam",
+      "email": "admin@globaltoken.org"
+    }
   ],
   "keywords": [
-    "litecoin",
-    "ltc",
+    "globaltoken",
+    "glt",
     "satoshi",
+	"globaltokshi",
     "money",
     "currency",
     "virtual"
@@ -27,7 +32,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/Litecore.git"
+    "url": "https://github.com/globaltoken/Globaltokencore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
