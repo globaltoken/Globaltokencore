@@ -32,7 +32,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/globaltoken/Globaltokencore.git"
+    "url": "https://github.com/jeong760/Globaltokencore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -48,10 +48,10 @@
     "binary": "*",
     "bn.js": "*",
     "brfs": "*",
-    "bufferput": "git://github.com/bitpay/node-bufferput.git",
+    "bufferput": "https://github.com/bitpay/node-bufferput.git",
     "buffers": "*",
     "buffertools": "*",
-    "browserify-buffertools": "git://github.com/maraoz/browserify-buffertools.git",
+    "browserify-buffertools": "https://github.com/maraoz/browserify-buffertools.git",
     "elliptic": "*",
     "hash.js": "*",
     "jsrsasign": "*",
