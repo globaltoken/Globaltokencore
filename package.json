@@ -31,7 +31,6 @@
   ],
   "main": "bitcore.js",
   "repository": {
-    "type": "git",
     "url": "https://github.com/jeong760/Globaltokencore.git"
   },
   "scripts": {
