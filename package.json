@@ -31,8 +31,7 @@
   ],
   "main": "bitcore.js",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/globaltoken/Globaltokencore.git"
+    "url": "https://github.com/jeong760/Globaltokencore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -41,24 +40,24 @@
     "prepublish": "node browser/build.js -a"
   },
   "dependencies": {
-    "asn1.js": "0.4.1",
-    "async": "~0.2.10",
-    "bignum": "=0.6.2",
-    "bindings": "=1.1.1",
-    "binary": "^0.3.0",
-    "bn.js": "=0.13.3",
-    "brfs": "=1.0.0",
-    "bufferput": "git://github.com/bitpay/node-bufferput.git",
-    "buffers": "=0.1.1",
-    "buffertools": "=2.1.2",
-    "browserify-buffertools": "git://github.com/maraoz/browserify-buffertools.git",
-    "elliptic": "=0.15.7",
-    "hash.js": "=0.3.1",
-    "jsrsasign": "=0.0.3",
-    "preconditions": "^1.0.7",
-    "protobufjs": "=3.0.0",
-    "sjcl": "=1.0.1",
-    "socks5-client": "~0.3.6"
+    "asn1.js": "*",
+    "async": "*",
+    "bignum": "*",
+    "bindings": "*",
+    "binary": "*",
+    "bn.js": "*",
+    "brfs": "*",
+    "bufferput": "https://github.com/bitpay/node-bufferput.git",
+    "buffers": "*",
+    "buffertools": "*",
+    "browserify-buffertools": "https://github.com/maraoz/browserify-buffertools.git",
+    "elliptic": "*",
+    "hash.js": "*",
+    "jsrsasign": "*",
+    "preconditions": "*"",
+    "protobufjs": "*",
+    "sjcl": "*",
+    "socks5-client": "*""
   },
   "testling": {
     "harness": "mocha-bdd",
@@ -85,27 +84,27 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=10.4.0"
   },
   "devDependencies": {
-    "browserify": "=3.40.0",
-    "chai": "=1.9.1",
-    "commander": "~2.2.0",
-    "coveralls": "^2.10.0",
-    "event-stream": "~3.1.5",
-    "express": "4.6.1",
-    "grunt-browserify": "~2.0.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-markdown": "~0.5.0",
-    "grunt-mocha-test": "~0.8.2",
-    "grunt-shell": "~0.6.4",
-    "gulp": "~3.8.2",
-    "gulp-concat": "~2.2.0",
-    "istanbul": "~0.2.6",
-    "mocha": ">=1.15.1",
-    "optimist": "0.6.1",
-    "request": "2.39.0",
-    "sinon": "^1.10.3",
-    "uglifyify": "=1.2.3"
+    "browserify": "*",
+    "chai": "*",
+    "commander": "*",
+    "coveralls": "*",
+    "event-stream": "*",
+    "express": "*",
+    "grunt-browserify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-markdown": "*",
+    "grunt-mocha-test": "*",
+    "grunt-shell": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "optimist": "*",
+    "request": "*",
+    "sinon": "*",
+    "uglifyify": "*"
   }
 }
