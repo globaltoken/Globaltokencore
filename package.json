@@ -32,7 +32,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeong760/Globaltokencore.git"
+    "url": "https://github.com/globaltoken/Globaltokencore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -85,7 +85,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "~0.10"
+    "node": ">=0.10"
   },
   "devDependencies": {
     "browserify": "*",
