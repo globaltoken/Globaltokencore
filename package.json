@@ -85,7 +85,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "~4.9.1"
+    "node": "~0.10"
   },
   "devDependencies": {
     "browserify": "*",
