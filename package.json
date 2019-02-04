@@ -56,7 +56,7 @@
     "hash.js": "=0.3.1",
     "jsrsasign": "=0.0.3",
     "preconditions": "^1.0.7",
-    "protobufjs": "=3.0.0",
+    "protobufjs": "=5.0.3",
     "sjcl": "=1.0.1",
     "socks5-client": "~0.3.6"
   },
@@ -104,7 +104,7 @@
     "istanbul": "~0.2.6",
     "mocha": ">=1.15.1",
     "optimist": "0.6.1",
-    "request": "2.39.0",
+    "request": "2.68.0",
     "sinon": "^1.10.3",
     "uglifyify": "=1.2.3"
   }
