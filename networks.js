@@ -9,7 +9,8 @@ exports.livenet = {
   magic: hex('C708D32D'),
   addressVersion: 0x26,
   privKeyVersion: 0xa6,
-  P2SHVersion: 5,
+  P2SHVersion: 141,
+  P2SHVersion_OLD: 5,
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
@@ -35,7 +36,8 @@ exports.testnet = {  // setup needs to be checked, testnet was not used.
   magic: hex('3A6F375B'),
   addressVersion: 0x6f,
   privKeyVersion: 0xef,
-  P2SHVersion: 196,
+  P2SHVersion: 8,
+  P2SHVersion_OLD: 196,
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
