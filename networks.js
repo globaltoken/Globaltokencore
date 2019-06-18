@@ -34,7 +34,7 @@ exports.mainnet = exports.livenet;
 exports.testnet = {  // setup needs to be checked, testnet was not used.
   name: 'testnet',
   magic: hex('3A6F375B'),
-  addressVersion: 0x6f,
+  addressVersion: 27,
   privKeyVersion: 0xef,
   P2SHVersion: 8,
   P2SHVersion_OLD: 196,
