@@ -52,7 +52,7 @@
     "buffers": "=0.1.1",
     "buffertools": "=2.1.2",
     "browserify-buffertools": "git://github.com/maraoz/browserify-buffertools.git",
-    "elliptic": "=0.15.7",
+    "elliptic": "=6.5.3",
     "hash.js": "=0.3.1",
     "jsrsasign": "=0.0.3",
     "preconditions": "^1.0.7",
